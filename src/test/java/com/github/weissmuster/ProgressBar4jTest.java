@@ -18,8 +18,5 @@ class ProgressBar4jTest {
         throw new RuntimeException(e);
       }
     }
-
-
-
   }
 }
