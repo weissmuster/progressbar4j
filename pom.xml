@@ -3,7 +3,7 @@
 
     <groupId>io.github.weissmuster</groupId>
     <artifactId>progressbar4j</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ProgressBar4j</name>
@@ -40,6 +40,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.scm.provider.git.user>weissmuster</maven.scm.provider.git.user>
+        <project.scm.id>githubcredentials</project.scm.id>
     </properties>
 
     <dependencyManagement>
