@@ -1,22 +1,30 @@
 package io.github.weissmuster;
 
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import org.junit.jupiter.api.Test;
 
 class ProgressBar4jTest {
 
   @Test
-  void trigger() {
+  void testBuilder() {
+    ProgressBar4j progressBar = ProgressBar4j.Builder.builder()
+            .withItemName("files")
+            .withChunkSize(10)
+            .withAmountOfItemsToProcess(100)
+            .build();
 
-    int itemsToProcess = 83;
-    ProgressBar4j progressbar = ProgressBar4j.Builder.builder().withChunkSize(25).withItemName("FooBar").withAmountOfItemsToProcess(itemsToProcess).build();
+    assertNotNull(progressBar);
+  }
 
-    for(int i = 0; i < itemsToProcess; i++) {
-      progressbar.trigger();
-      try {
-        Thread.sleep(50);
-      } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-      }
-    }
+  @Test
+  void testInvalidChunkSize() {
+    assertThrows(IllegalArgumentException.class, () -> ProgressBar4j.Builder.builder().withChunkSize(-1).build());
+  }
+
+  @Test
+  void testInvalidAmountOfItems() {
+    assertThrows(IllegalArgumentException.class, () -> ProgressBar4j.Builder.builder().withAmountOfItemsToProcess(-10).build());
   }
 }
