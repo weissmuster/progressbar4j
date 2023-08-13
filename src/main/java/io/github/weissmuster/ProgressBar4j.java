@@ -118,6 +118,11 @@ public class ProgressBar4j {
      * @return The Builder instance.
      */
     public Builder withChunkSize(int val) {
+
+      if(val < 1) {
+        throw new IllegalArgumentException("The chunkSize is less than 1. chunkSize must be greater than 1.");
+      }
+
       chunkSize = val;
       return this;
     }
@@ -129,6 +134,11 @@ public class ProgressBar4j {
      * @return The Builder instance.
      */
     public Builder withAmountOfItemsToProcess(int val) {
+      
+      if(val < 1) {
+        throw new IllegalArgumentException("The amountOfItemsToProcess is less than 1. amountOfItemsToProcess must be greater than 1.");
+      }
+
       amountOfItemsToProcess = val;
       return this;
     }
