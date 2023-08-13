@@ -4,7 +4,7 @@
 
     <groupId>io.github.weissmuster</groupId>
     <artifactId>progressbar4j</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1-prepare-for-maven-central-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ProgressBar4j</name>
