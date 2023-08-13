@@ -3,7 +3,7 @@
 
     <groupId>io.github.weissmuster</groupId>
     <artifactId>progressbar4j</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ProgressBar4j</name>
@@ -29,8 +29,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:weissmuster/progressbar4j.git</connection>
-        <developerConnection>scm:git:git@github.com:weissmuster/progressbar4j.git</developerConnection>
+        <connection>scm:git:git@github.com/weissmuster/progressbar4j.git</connection>
+        <developerConnection>scm:git:git@github.com/weissmuster/progressbar4j.git</developerConnection>
         <url>https://github.com/weissmuster/progressbar4j</url>
     <tag>progressbar4j-0.0.1</tag>
   </scm>
