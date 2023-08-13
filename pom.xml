@@ -31,7 +31,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/weissmuster/progressbar4j</connection>
-        <developerConnection>scm:git:ssh://github.com:weissmuster/progressbar4j.git</developerConnection>
+        <developerConnection>scm:git:ssh://weissmuster.github.com:weissmuster/progressbar4j.git</developerConnection>
         <url>https://github.com/weissmuster/progressbar4j</url>
     </scm>
 
