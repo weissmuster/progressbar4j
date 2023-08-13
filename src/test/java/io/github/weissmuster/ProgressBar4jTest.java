@@ -1,4 +1,4 @@
-package com.github.weissmuster;
+package io.github.weissmuster;
 
 import org.junit.jupiter.api.Test;
 
