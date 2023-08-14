@@ -7,6 +7,17 @@ progressbar4j is a library designed to enable Java developers to easily integrat
 ## Prerequisites
 Java JDK 17 or higher
 
+## Maven
+```
+<dependency>
+    <groupId>io.github.weissmuster</groupId>
+    <artifactId>progressbar4j</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
+
+or
+
 ## Setup
 ```
 git clone https://github.com/weissmuster/progressbar4j.git
