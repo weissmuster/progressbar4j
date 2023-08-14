@@ -3,7 +3,7 @@
 
     <groupId>io.github.weissmuster</groupId>
     <artifactId>progressbar4j</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>ProgressBar4j</name>
@@ -33,7 +33,7 @@
         <developerConnection>scm:git:ssh://git@weissmuster.github.com/weissmuster/progressbar4j.git
         </developerConnection>
         <url>https://github.com/weissmuster/progressbar4j</url>
-        <tag>progressbar4j-0.0.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
