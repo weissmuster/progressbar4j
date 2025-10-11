@@ -1,13 +1,17 @@
 # progressbar4j
+
 A simple-to-use Java toolkit for progress bars.
 
 ## Introduction
+
 progressbar4j is a library designed to enable Java developers to easily integrate progress bars into their applications.
 
 ## Prerequisites
+
 Java JDK 17 or higher
 
 ## Maven
+
 ```
 <dependency>
     <groupId>io.github.weissmuster</groupId>
@@ -19,6 +23,7 @@ Java JDK 17 or higher
 or
 
 ## Setup
+
 ```
 git clone https://github.com/weissmuster/progressbar4j.git
 cd progressbar4j
@@ -26,7 +31,9 @@ mvn install
 ```
 
 ## Usage
+
 Here's a simple example on how to use progressbar4j:
+
 ```
 package io.github.weissmuster;
 
@@ -56,6 +63,7 @@ public class Demo {
 ```
 
 ### console output
+
 ```
 INFO: 5 of 1000 RandomItemName done. | 0.50% processed | ElapsedTime: 0 minutes | RemainingTime: 1 minutes left
 Aug 14, 2023 4:40:04 PM io.github.weissmuster.ProgressBar4j logMessage
@@ -69,12 +77,17 @@ INFO: 25 of 1000 RandomItemName done. | 2.50% processed | ElapsedTime: 0 minutes
 ```
 
 ## Features
+
 - Easy integration
 - Customizable design
 
 ## Contributing
-Contributions from the community are welcomed! Please create an issue or a pull request if you've found a bug or wish to suggest a new feature.
+
+Contributions from the community are welcomed! Please create an issue or a pull request if you've found a bug or wish to
+suggest a new feature.
 
 ## License
-This project is licensed under the Apache License, Version 2.0. See the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) file for more details.
+
+This project is licensed under the Apache License, Version 2.0. See
+the [LICENSE](https://www.apache.org/licenses/LICENSE-2.0.txt) file for more details.
 
